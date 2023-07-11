@@ -64,6 +64,7 @@ test = [
 ]
 dev = [
   "pytest >=6",
+  "dask[distributed]",
 ]
 docs = [
   "Sphinx~=3.0",
